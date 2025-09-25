@@ -1,6 +1,6 @@
 # 个人算法练习库
 
-本项目为个人操作系统练习程序，与实现[蒋炎岩](https://jyywiki.cn)老师 NJU [操作系统原理课程](https://space.bilibili.com/202224425?spm_id_from=333.1391.0.0)部分代码的实现与分析。
+本项目为个人操作系统练习程序，与实现[蒋炎岩](https://github.com/jiangyy)老师 NJU [操作系统原理课程](https://space.bilibili.com/202224425?spm_id_from=333.1391.0.0)部分代码的实现与分析。
 
 
 ## 使用方法
