@@ -45,7 +45,34 @@ void fork1(void)
   printf("PID: %-5d | x: %-5d | y: %-5d\n", getpid(), x, y);
 }
 
+/**
+ * @brief
+ * 执行两次循环，每次循环调用 fork() 并输出当前进程的 PID 及 fork 返回值。
+ *
+ * @details
+ * - 循环体内每次调用 fork()，当前进程会再创建一个子进程。
+ * - 由于循环，每次 fork 后进程数会倍增，最终共产生 4 个进程。
+ *
+ * @example
+ * 运行结果示例：(无法确定的 PID ; 进程调度是随机的)
+ *  P0 | PID: 57419 | nextPid: 57420
+ *  P1 | PID: 57419 | nextPid: 57421
+ *  P0 | PID: 57420 | nextPid: 0    
+ *  P1 | PID: 57421 | nextPid: 0    
+ *  P1 | PID: 57420 | nextPid: 57422                                                                                                                    6325
+ *  P1 | PID: 57422 | nextPid: 0   
+ *
+ */
+void fork2(void)
+{
+  for (int i = 0; i < 2; i++)
+  {
+    pid_t nextPid = fork();
+    printf(" P%d | PID: %-5d | nextPid: %-5d\n", i, getpid(), nextPid);
+  }
+}
+
 int main(void)
 {
-  fork1();
+  fork2();
 }
