@@ -1,4 +1,4 @@
-# [个人OS练习库](https://github.com/NotSleeply/OSTraining)
+# [个人OS练习库](https://github.com/NotSleeply/OSTraining) -- [NotSleeply](https://github.com/NotSleeply)
 
 本项目为个人操作系统练习程序，与实现[蒋炎岩](https://github.com/jiangyy)老师 -- [Jyy](https://jyywiki.cn) NJU [操作系统原理课程](https://space.bilibili.com/202224425?spm_id_from=333.1391.0.0)部分代码的实现与分析。
 
