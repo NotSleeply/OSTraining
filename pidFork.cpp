@@ -38,9 +38,14 @@ using namespace std;
  * `P1`: PID: 30388 | x: 0     | y: 30390
  * `P3`: PID: 30390 | x: 0     | y: 0
  */
-int main(void)
+void fork1(void)
 {
   pid_t x = fork();
   pid_t y = fork();
   printf("PID: %-5d | x: %-5d | y: %-5d\n", getpid(), x, y);
+}
+
+int main(void)
+{
+  fork1();
 }
