@@ -1,6 +1,6 @@
 # [个人OS练习库](https://github.com/NotSleeply/OSTraining)
 
-本项目为个人操作系统练习程序，与实现[蒋炎岩](https://github.com/jiangyy)老师 -- [Jyy](https://jyywiki.cn) NJU [操作系统原理课程](https://space.bilibili.com/202224425)部分代码的实现与分析。
+本项目基于[CS自学指南](https://csdiy.wiki/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/NJUOS)推荐，为个人操作系统练习程序，与实现[蒋炎岩](https://github.com/jiangyy)老师 -- [Jyy](https://jyywiki.cn) NJU [操作系统原理课程](https://space.bilibili.com/202224425)部分代码的实现与分析。
 
 
 ## 使用方法
