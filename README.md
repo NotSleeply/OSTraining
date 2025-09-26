@@ -19,6 +19,9 @@ int add(int a, int b) {
     return a + b;
 }
 ```
+## 基础了解
+
+- [C++执行系统命令的三种方式](https://blog.csdn.net/sexyluna/article/details/135025249)：了解如何使用CPP调用底层系统的方式;
 
 ## 许可证
 
