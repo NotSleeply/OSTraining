@@ -37,8 +37,10 @@ int main(int argc, char *argv[]);
 void funPmain()
 {
   typedef int (*MainFunctionPtr)(int, char *[]);
+
   MainFunctionPtr p_main;
   p_main = &main;
+
   cout << "main 函数的地址是: " << (void *)p_main << endl;
 }
 
