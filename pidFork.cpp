@@ -1,4 +1,3 @@
-
 /**
  * @file pidFork.cpp
  * @brief 演示 fork() 系统调用产生的进程状态及其 PID 关系。
@@ -57,10 +56,10 @@ void fork1(void)
  * 运行结果示例：(无法确定的 PID ; 进程调度是随机的)
  *  P0 | PID: 57419 | nextPid: 57420
  *  P1 | PID: 57419 | nextPid: 57421
- *  P0 | PID: 57420 | nextPid: 0    
- *  P1 | PID: 57421 | nextPid: 0    
+ *  P0 | PID: 57420 | nextPid: 0
+ *  P1 | PID: 57421 | nextPid: 0
  *  P1 | PID: 57420 | nextPid: 57422                                                                                                                    6325
- *  P1 | PID: 57422 | nextPid: 0   
+ *  P1 | PID: 57422 | nextPid: 0
  *
  */
 void fork2(void)
