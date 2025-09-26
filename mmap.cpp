@@ -1,8 +1,7 @@
 /**
  * @file mmap.cpp
- * @brief 演示如何获取 main 函数的地址，并通过函数指针调用。
- *        本程序定义了与 main 函数签名一致的函数指针类型，并输出 main 的地址。
- * @see [C/C++ 函数指针与 main 函数地址相关知识]
+ * @brief 06 - mmap 和进程的地址空间；入侵进程的地址空间 [2025 南京大学操作系统原理]
+ * @see https://www.bilibili.com/video/BV1dzRAYLELh
  * @author [NotSleeply]
  * @date 2025-09-26
  */

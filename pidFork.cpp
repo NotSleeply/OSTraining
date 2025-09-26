@@ -1,8 +1,7 @@
 /**
  * @file pidFork.cpp
- * @brief 演示 fork() 系统调用产生的进程状态及其 PID 关系。
- *        本程序通过两次 fork()，展示了进程树的分叉及各进程中变量的取值。
- * @see [05 - 程序与进程；进程管理 API [2025 南京大学操作系统原理]](https://www.bilibili.com/video/BV1fb97YsEWL/?spm_id_from=333.337.) 课程中 '1:07:50' 的题目 “fork：习题（1）
+ * @brief 05 - 程序与进程；进程管理 API [2025 南京大学操作系统原理]
+ * @see https://www.bilibili.com/video/BV1fb97YsEWL
  * @author [NotSleeply]
  * @date 2025-09-25
  */
