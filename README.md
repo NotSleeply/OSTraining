@@ -22,6 +22,7 @@ int add(int a, int b) {
 ## 基础了解
 
 - [C++执行系统命令的三种方式](https://blog.csdn.net/sexyluna/article/details/135025249)：了解如何使用CPP调用底层系统的方式;
+- [进程与操作系统（OS） 的关系](https://juejin.cn/post/7554290139732983818)：了解进程与操作系统；
 
 ## 许可证
 
