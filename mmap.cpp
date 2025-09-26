@@ -18,13 +18,15 @@ int main(int argc, char *argv[]);
 
 /**
  * @brief
- * 获取 main 函数的地址，并通过函数指针类型输出该地址。
+ * 获取 `main` 内存中的实际十六进制地址。
  *
  * @details
- * - 定义 MainFunctionPtr 类型，与 main 函数签名一致：`int (*)(int, char*[])`
- * - 通过 p_main = &main 获取 main 的地址。
- * - 使用 cout 输出 main 函数的地址（注意：main 的行为和可移植性与普通函数略有不同）。
+ * - 通过定义与 `main` 函数一致的函数指针类型(`MainFunctionPtr`)来获取`main`地址。
  *
+ * @note
+ * - `(void *)p_main` :
+ *  若没有添加 `(void *)` 强制转换，通常会将其视为一个 `布尔值` 或 `普通的 void* 指针` 进行处理;处理非空指针，隐式转换为 true，最终被 cout 打印成了 `1`。
+ *  添加 `(void *)` 后，会进行一次`显式的类型转换`，将其转换为 `通用数据指针 void*`。从而打印出实际的内存地址。
  *
  * @example
  * 运行结果示例（地址因环境而异）：
