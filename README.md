@@ -22,10 +22,15 @@ int add(int a, int b) {
 ## 基础了解
 
 - [C++执行系统命令的三种方式](https://blog.csdn.net/sexyluna/article/details/135025249)：了解如何使用CPP调用底层系统的方式;
+
 - [进程与操作系统（OS） 的关系](https://juejin.cn/post/7554290139732983818)：了解进程与操作系统；
+
+- [ICS-PA2025](https://www.bilibili.com/video/BV1Cga6zSEtx/?spm_id_from=333.1387.upload.video_card.click&vd_source=b24375586754d5c75f8ea29f340cd26d):本实验由[王慧妍](http://www.why.ink:8080)老师讲述。
 
 ## 许可证
 
 - 本项目采用 MIT License，详见 [LICENSE](LICENSE) 文件。
+
 - 本仓库仅供个人学习和交流使用。
+
 - 作者：[NotSleeply](https://github.com/NotSleeply)
