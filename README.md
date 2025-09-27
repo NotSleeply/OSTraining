@@ -25,7 +25,7 @@ int add(int a, int b) {
 
 - [进程与操作系统（OS） 的关系](https://juejin.cn/post/7554290139732983818)：了解进程与操作系统；
 
-- [ICS-PA2025](https://www.bilibili.com/video/BV1Cga6zSEtx/?spm_id_from=333.1387.upload.video_card.click&vd_source=b24375586754d5c75f8ea29f340cd26d):本实验由[王慧妍](http://www.why.ink:8080)老师讲述。
+- [ICS-PA2025](https://space.bilibili.com/49964811/lists/6270320?type=season):本实验由[王慧妍](http://www.why.ink:8080)老师讲述。
 
 ## 许可证
 
