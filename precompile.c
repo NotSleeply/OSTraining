@@ -1,6 +1,7 @@
 /**
  * @file precompile.c
  * @brief 条件编译演示
+ * @see https://www.bilibili.com/video/BV1ZrazzzEs3
  * @author [NotSleeply]
  * @date 2025-10-01
  */
